@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textview2">结果为：</string>
+    <string name="button">转换为华氏温度</string>
+    <string name="inp_tip">请输入摄氏度</string>
+</resources>
