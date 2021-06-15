@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn">按钮</string>
+    <string name="hello">你好</string>
+    <string name="btn_label">按钮</string>
+    <string name="teamaname">A 队</string>
+    <string name="teambname">B 队</string>
+    <string name="btn3_label">+3 分</string>
+    <string name="btn2_label">+2 分</string>
+    <string name="btn1_label">+1 分</string>
+    <string name="btn_reset">重置</string>
+    <string name="rmb_hint">输入RMB</string>
+    <string name="btn_dollar_label">美元</string>
+    <string name="btn_euro_label">欧元</string>
+    <string name="btn_won_label">韩币</string>
+    <string name="btn_save">保存</string>
+    <string name="nodata">无数据</string>
+</resources>

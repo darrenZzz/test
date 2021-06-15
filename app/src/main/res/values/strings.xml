@@ -1,6 +1,26 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="textview2">结果为：</string>
-    <string name="button">转换为华氏温度</string>
-    <string name="inp_tip">请输入摄氏度</string>
+    <string name="textview2" translatable="false">结果为：</string>
+    <string name="btn_label">Button</string>
+    <string name="button1" translatable="false">转换为华氏温度</string>
+    <string name="inp_tip" translatable="false">请输入摄氏度</string>
+    <string name="teamaname">Team A</string>
+    <string name="teambname">Team B</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="btn3_label">+3 points</string>
+    <string name="btn2_label">+2 points</string>
+    <string name="btn1_label">+1 point</string>
+    <string name="btn_reset">reset</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="hello">Hello</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="btn">button</string>
+    <string name="menu_setting" translatable="false">Setting</string>
+    <string name="open_list" translatable="false">OpenList</string>
+    <string name="menu2" translatable="false">Item</string>
+    <string name="btn_save">Save</string>
+    <string name="nodata">No Data</string>
+
 </resources>

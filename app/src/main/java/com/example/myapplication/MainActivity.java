@@ -1,13 +1,11 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity{
     TextView out;
@@ -16,6 +14,7 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         out = findViewById(R.id.textView2);
         inp = findViewById(R.id.inp);
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity{
             Double a = Double.valueOf(str).doubleValue();
             a = 32 + a * 1.8;
             out.setText("结果为："+a+"华氏度");
-        }else{
+        }else {
             out.setText("请输入你想转换的摄氏度");
         }
     }

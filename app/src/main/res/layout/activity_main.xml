@@ -18,11 +18,11 @@
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="@string/button"
+        android:text="@string/button1"
         android:onClick="btn"/>
 
     <TextView

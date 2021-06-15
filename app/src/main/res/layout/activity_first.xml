@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textSize="25sp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/inpText"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_label"
+        android:onClick="btnClick"/>
+
+    <Button
+        android:id="@+id/btnTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:onClick="openTemp"/>
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:onClick="openRate"/>
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:onClick="openScore"/>
+
+    <Button
+        android:id="@+id/btnJD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JD"
+        android:onClick="openJD"/>
+
+
+</LinearLayout>
